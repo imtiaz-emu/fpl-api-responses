@@ -1,0 +1,34 @@
+{
+  "urls": [
+    {
+      "url": "https://fantasy.premierleague.com/api/bootstrap-static/",
+      "desc": "Contains all the information of player ID, Gameweeks, game_settings, Monthly phases, teams",
+      "ref": "/Users/imtiaz/Etectra/work/fpl-api/responses/bootstrap_static.json"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/233/",
+      "desc": "Contains single player stats. Here <233> is player ID. Can be found from bootstrap-static elements key",
+      "ref": "/Users/imtiaz/Etectra/work/fpl-api/responses/element_stats.json"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/20337/",
+      "desc": "Contains a manager information. <20337> is the FPL ID. Leagues, cups, name, kit etc.",
+      "ref": "/Users/imtiaz/Etectra/work/fpl-api/responses/entry.json"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/<FPL_ID>/event/<GW_ID>/picks/",
+      "desc": "Contains a manager\"s transfers and stats for a particular GW.",
+      "ref": "/Users/imtiaz/Etectra/work/fpl-api/responses/entry.json"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/event/<GW_ID>/live/",
+      "desc": "Contains a GW\"s live stats",
+      "ref": "/Users/imtiaz/Etectra/work/fpl-api/responses/events_live.json"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/fixtures/?event=37",
+      "desc": "Contains a GW\"s Goals, Assists, bonus, penalties etc.",
+      "ref": "/Users/imtiaz/Etectra/work/fpl-api/responses/fixture_by_event.json"
+    }
+  ]
+}
