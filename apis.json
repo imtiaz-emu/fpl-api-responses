@@ -29,6 +29,11 @@
       "url": "https://fantasy.premierleague.com/api/fixtures/?event=37",
       "desc": "Contains a GW\"s Goals, Assists, bonus, penalties etc.",
       "ref": "/Users/imtiaz/Etectra/work/fpl-api/responses/fixture_by_event.json"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/leagues-classic/<LID>/standings/",
+      "desc": "Contains league standings",
+      "ref": "/Users/imtiaz/Etectra/work/fpl-api/responses/league_standings.json"
     }
   ]
 }
